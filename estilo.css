@@ -1,0 +1,117 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor{
+    box-shadow: 2px 2px 8px;
+    max-width: 750px;
+    min-width: 100px;
+    font-family: 'Roboto Slab', serif;
+    background-image: linear-gradient( 45deg, #281F5C 20%,#453DB8 80%);
+    border-radius: 10px;
+    margin-top: 90px;
+}
+.presentacion{
+    text-align: center;
+    color: #fff;
+    font-family: 'Josefin Slab', serif;
+    font-size: 25px;
+    display: flex;
+    
+}
+
+.presentacion img{
+    margin: 5px;
+    margin-top: 20px;
+    border-radius: 90%;
+    max-width: 400px;
+    min-width: 100px;
+    max-height: 110px;
+    min-height: 60px;
+    border: 3px solid #fff;
+}
+
+.presentacion h1,p{
+    margin: 20px;
+    align-items: center;
+    display: flex;
+}
+.presentacion p{
+    min-width: 60px;
+    max-width: 300px;
+}
+
+.flex-contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-contenedor i{
+font-size: 20px;
+color: #453DB8;
+}
+
+
+
+.informacion{
+    display: flex;
+    justify-content: space-around;
+}
+.informacion p{
+    width: 200px;
+    display: none;
+    color: #fff;
+    
+    
+}
+.boton{
+    width: 180px;
+    box-shadow: 1px 1px 4px;
+    border-radius: 5px;
+    border:1px;
+}
+
+.boton:hover{
+    background-color: ivory;
+}
+
+.botones{
+    display: block;
+    width: 740px;
+    min-width: 100px;
+    margin: 5px;
+    height: 40px;
+    color: #453DB8;
+   border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px;
+    max-width: 740px;
+    min-width: 375px;
+}
+
+.botones:hover{
+    background-color: #453DB8;
+    color: #fff;
+}
+
+ul{
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px;
+    display: none;
+}
+li{
+    padding: 5px;
+}
+.ocultar{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: block;
+    font-size: 14px;
+}
+a:hover{
+    color:#453DB8;
+}
