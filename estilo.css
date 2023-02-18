@@ -5,19 +5,19 @@ body{
 
 .contenedor{
     box-shadow: 2px 2px 8px;
+    width: 80%;
     max-width: 750px;
-    min-width: 100px;
     font-family: 'Roboto Slab', serif;
     background-image: linear-gradient( 45deg, #281F5C 20%,#453DB8 80%);
     border-radius: 10px;
-    margin-top: 90px;
+    margin-top: 20px;
+    padding: 5px;
 }
 .presentacion{
     text-align: center;
     color: #fff;
     font-family: 'Josefin Slab', serif;
     font-size: 25px;
-    display: flex;
     
 }
 
@@ -25,21 +25,17 @@ body{
     margin: 5px;
     margin-top: 20px;
     border-radius: 90%;
-    max-width: 400px;
-    min-width: 100px;
-    max-height: 110px;
-    min-height: 60px;
+    width: 150px;
+    height: 150px;
     border: 3px solid #fff;
 }
 
 .presentacion h1,p{
     margin: 20px;
     align-items: center;
-    display: flex;
 }
 .presentacion p{
-    min-width: 60px;
-    max-width: 300px;
+    font-size: 16px;
 }
 
 .flex-contenedor{
@@ -78,16 +74,12 @@ color: #453DB8;
 
 .botones{
     display: block;
-    width: 740px;
-    min-width: 100px;
-    margin: 5px;
+    width: 100%;
     height: 40px;
     color: #453DB8;
    border: none;
     border-radius: 5px;
     box-shadow: 2px 2px 8px;
-    max-width: 740px;
-    min-width: 375px;
 }
 
 .botones:hover{
